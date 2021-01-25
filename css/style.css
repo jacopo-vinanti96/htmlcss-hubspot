@@ -1,0 +1,67 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* TYPO SETTINGS */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* REPEATED CLASSES */
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.btn {
+  border-radius: 6px;
+}
+
+.elem-orange {
+  background-color: #FE765A;
+  color: white;
+}
+
+.btn-inverted {
+  background-color: white;
+  color: #FE765A;
+  border: 1px solid #FE765A;
+}
+/* /REPEATED CLASSES */
+
+/* HEADER SETTINGS */
+header .top-bar {
+  background-color: #F5FAFD;
+  font-weight: 500;
+  padding: 35px 0;
+}
+
+header .top-bar li {
+  display: inline-block;
+}
+
+header .top-bar li:not(:last-child) {
+  margin-right: 10px;
+}
+
+header .top-bar .language-contact {
+  float: left;
+}
+
+header .top-bar .login-search {
+  float: right;
+}
+
+header .top-bar .btn {
+  padding: 10px;
+}
