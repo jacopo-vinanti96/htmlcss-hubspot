@@ -40,22 +40,33 @@ a {
 /* /REPEATED CLASSES */
 
 /* HEADER SETTINGS */
+header .fas.fa-angle-down {
+  font-size: 22px;
+  transform: translateY(3px);
+}
+
 header .top-bar {
   background-color: #F5FAFD;
   font-weight: 500;
   padding: 35px 0;
+  border-bottom: 2px solid black;
 }
 
-header .top-bar li {
+header .top-bar li, header .main-nav li {
   display: inline-block;
 }
 
 header .top-bar li:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 header .top-bar .language-contact {
   float: left;
+}
+
+header .top-bar .language-contact li:last-of-type {
+  padding-left: 20px;
+  border-left: 1px solid grey;
 }
 
 header .top-bar .login-search {
@@ -64,4 +75,72 @@ header .top-bar .login-search {
 
 header .top-bar .btn {
   padding: 10px;
+}
+
+header .top-bar .fas.fa-search {
+  color: #00A1BA;
+}
+
+header .main-nav {
+  padding: 31.5px 0;
+}
+
+header .main-nav ul {
+  float: right;
+}
+
+header .main-nav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+header .main-nav li span:not(:last-child) {
+  margin-right: 15px;
+}
+
+header .hero {
+  position: relative;
+}
+
+header .hero img {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+header .hero .hero-text {
+  padding-top: 60px;
+  position: absolute;
+  z-index: 2;
+  width: 35%;
+}
+
+header .hero .hero-text > * {
+display: block;
+margin-bottom: 35px;
+}
+
+header .hero .hero-text h1 {
+  font-size: 50px;
+}
+
+header .hero .hero-text p {
+  line-height: 30px;
+}
+
+header .hero .hero-text .btn {
+  padding: 30px;
+  display: inline-block;
+}
+
+header .hero .hero-horizontal-layer {
+  background-color: #B2EEE7;
+  border-bottom: 4px solid #283C4F;
+  border-top: 4px solid #283C4F;
+  height: 108px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
 }
