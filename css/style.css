@@ -11,6 +11,15 @@ a {
   color: black;
 }
 
+p {
+  line-height: 32px;
+  font-weight: 500;
+}
+
+li {
+  font-weight: 500;
+}
+
 /* REPEATED CLASSES */
 .container {
   width: 70%;
@@ -47,7 +56,6 @@ header .fas.fa-angle-down {
 
 header .top-bar {
   background-color: #F5FAFD;
-  font-weight: 500;
   padding: 35px 0;
   border-bottom: 2px solid black;
 }
@@ -97,6 +105,10 @@ header .main-nav li span:not(:last-child) {
   margin-right: 15px;
 }
 
+header .main-nav li span {
+  font-weight: 500;
+}
+
 header .hero {
   position: relative;
 }
@@ -123,10 +135,7 @@ margin-bottom: 35px;
 
 header .hero .hero-text h1 {
   font-size: 50px;
-}
-
-header .hero .hero-text p {
-  line-height: 30px;
+  font-weight: 700;
 }
 
 header .hero .hero-text .btn {
@@ -143,4 +152,63 @@ header .hero .hero-horizontal-layer {
   position: absolute;
   bottom: 0;
   z-index: 2;
+}
+/* /HEADER SETTINGS */
+
+/* MAIN SETTINGS */
+main .products-section-bg {
+background-color: #F5FAFD;
+padding-top: 60px;
+}
+
+main .products-section .slogan-title {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+main .products-section .slogan-title img {
+  width: 35%;
+}
+
+main .products-section .slogan-title h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+main .products-section .col {
+  background-color: white;
+  border-radius: 10px;
+}
+
+main .products-section .col h3 {
+  font-size: 30px;
+}
+
+main .products-section .col .pop-sub-heading {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+main .products-section .horizontal.col {
+padding: 60px 100px;
+}
+
+main .products-section .horizontal.col .col-text {
+  float: right;
+  width: 70%;
+}
+
+main .products-section .horizontal.col li {
+  display: inline-block;
+}
+
+main .products-section .horizontal.col .pop-sub-heading, main .products-section .horizontal.col hr  {
+  display: inline-block;
+}
+
+main .products-section .horizontal.col hr {
+  width: 60%;
+  margin-left: 8%;
 }
