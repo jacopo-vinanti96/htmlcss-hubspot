@@ -33,6 +33,7 @@ p {
 
 .btn {
   border-radius: 6px;
+  display: inline-block;
 }
 
 .elem-orange {
@@ -179,10 +180,28 @@ main .products-section .slogan-title h2 {
 
 main .products-section .col {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px lightgrey;
+  margin-bottom: 60px;
 }
 
-main .products-section .col .learn-more .btn {
+main .products-section .col:not(.horizontal) {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+main .products-section .col:nth-child(4) {
+  margin: 0 5%;
+}
+
+main .products-section .col img {
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+main .products-section .col .btn {
   padding: 22px 50px;
 }
 
@@ -199,19 +218,41 @@ main .products-section .col .pop-sub-heading {
 }
 
 main .products-section .col li {
-margin-top: 20px;
+text-align: left;
+list-style: none;
 }
 
+main .products-section .col li i {
+  color: #FE765A;
+  margin-right: 13px;
+}
+
+main .products-section .col:not(.horizontal) hr {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+main .products-section .col:not(.horizontal) .pop-sub-heading {
+  margin-bottom: 30px;
+}
+
+main .products-section .col:not(.horizontal) .btn {
+  margin-top: 50px;
+}
+
+
 main .products-section .horizontal.col {
-padding: 60px 100px;
+padding: 80px 100px 60px 100px;
 }
 
 main .products-section .horizontal.col .learn-more {
   float: left;
 }
 
-main .products-section .horizontal.col .learn-more img {
-  margin-bottom: 40px;
+main .products-section .horizontal.col img {
+  display: block;
+  transform: translateX(20px);
+  margin-bottom: 30px;
 }
 
 main .products-section .horizontal.col .col-text {
@@ -221,6 +262,8 @@ main .products-section .horizontal.col .col-text {
 
 main .products-section .horizontal.col li {
   display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
 }
 
 main .products-section .horizontal.col .pop-sub-heading, main .products-section .horizontal.col hr  {
