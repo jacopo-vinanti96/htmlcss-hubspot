@@ -13,10 +13,9 @@ a {
 
 p {
   line-height: 32px;
-  font-weight: 500;
 }
 
-li {
+* {
   font-weight: 500;
 }
 
@@ -165,6 +164,7 @@ main .products-section .slogan-title {
   width: 75%;
   text-align: center;
   margin: auto;
+  margin-bottom: 70px;
 }
 
 main .products-section .slogan-title img {
@@ -174,6 +174,7 @@ main .products-section .slogan-title img {
 main .products-section .slogan-title h2 {
   font-size: 40px;
   margin-bottom: 30px;
+  font-weight: 700;
 }
 
 main .products-section .col {
@@ -181,8 +182,14 @@ main .products-section .col {
   border-radius: 10px;
 }
 
+main .products-section .col .learn-more .btn {
+  padding: 22px 50px;
+}
+
 main .products-section .col h3 {
   font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 35px;
 }
 
 main .products-section .col .pop-sub-heading {
@@ -191,8 +198,20 @@ main .products-section .col .pop-sub-heading {
   font-weight: 600;
 }
 
+main .products-section .col li {
+margin-top: 20px;
+}
+
 main .products-section .horizontal.col {
 padding: 60px 100px;
+}
+
+main .products-section .horizontal.col .learn-more {
+  float: left;
+}
+
+main .products-section .horizontal.col .learn-more img {
+  margin-bottom: 40px;
 }
 
 main .products-section .horizontal.col .col-text {
@@ -206,9 +225,11 @@ main .products-section .horizontal.col li {
 
 main .products-section .horizontal.col .pop-sub-heading, main .products-section .horizontal.col hr  {
   display: inline-block;
+  margin-top: 25px;
 }
 
 main .products-section .horizontal.col hr {
   width: 60%;
   margin-left: 8%;
+  transform: translateY(-6px);
 }
