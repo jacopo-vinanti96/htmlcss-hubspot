@@ -323,3 +323,68 @@ main .table-section .row .box .table-counter span {
   font-weight: 500;
   margin-left: 4px;
 }
+
+main .bottom-section {
+  padding: 60px 0;
+}
+
+main .bottom-section .customer-counter {
+  float: left;
+  width: 35%;
+  padding: 0 120px 0 80px;
+}
+
+main .bottom-section .customer-counter h4 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+main .bottom-section .customer-counter strong {
+  font-weight: 600;
+}
+
+main .bottom-section .sponsor-logos {
+  float: left;
+  width: 65%;
+  padding: 0 80px;
+}
+
+main .bottom-section .sponsor-logos img {
+  width: 22%;
+  vertical-align: middle;
+}
+
+main .bottom-section .sponsor-logos img:not(:last-child) {
+ margin-right: 3%;
+}
+
+main .bottom-section .grow-with-hubspot {
+  margin-top: 40px;
+}
+
+main .bottom-section .grow-with-hubspot .grow-text {
+  padding-top: 60px;
+  width: 46%;
+  display: inline-block;
+}
+
+main .bottom-section .grow-with-hubspot .grow-text > * {
+display: block;
+margin-bottom: 35px;
+}
+
+main .bottom-section .grow-with-hubspot .grow-text h4 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+main .bottom-section .grow-with-hubspot .grow-text .btn {
+  padding: 30px;
+  display: inline-block;
+}
+
+main .bottom-section .grow-with-hubspot img {
+  float: right;
+  width: 350px;
+}
