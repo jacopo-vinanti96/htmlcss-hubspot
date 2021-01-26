@@ -344,18 +344,23 @@ main .bottom-section .customer-counter strong {
   font-weight: 600;
 }
 
-main .bottom-section .sponsor-logos {
+main .bottom-section .sponsors-logos {
   float: left;
   width: 65%;
   padding: 0 80px;
 }
 
-main .bottom-section .sponsor-logos img {
+main .bottom-section .sponsors-logos .row:nth-child(1) {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+main .bottom-section .sponsors-logos img {
   width: 22%;
   vertical-align: middle;
 }
 
-main .bottom-section .sponsor-logos img:not(:last-child) {
+main .bottom-section .sponsors-logos img:not(:last-child) {
  margin-right: 3%;
 }
 
@@ -370,8 +375,11 @@ main .bottom-section .grow-with-hubspot .grow-text {
 }
 
 main .bottom-section .grow-with-hubspot .grow-text > * {
-display: block;
-margin-bottom: 35px;
+  display: block;
+}
+
+main .bottom-section .grow-with-hubspot .grow-text > *:not(small) {
+  margin-bottom: 35px;
 }
 
 main .bottom-section .grow-with-hubspot .grow-text h4 {
@@ -380,11 +388,79 @@ main .bottom-section .grow-with-hubspot .grow-text h4 {
 }
 
 main .bottom-section .grow-with-hubspot .grow-text .btn {
-  padding: 30px;
+  padding: 22px 30px;
   display: inline-block;
 }
 
 main .bottom-section .grow-with-hubspot img {
   float: right;
   width: 350px;
+}
+
+footer {
+  background-color: #273E4F;
+  padding: 40px 0px;
+  color: white;
+}
+
+footer .languages-services-links {
+  border-bottom: 1px solid white;
+}
+
+footer .languages-services-links .links-col {
+  float: left;
+  width:22%;
+}
+
+footer .languages-services-links .links-col:not(:last-child) {
+ margin-right: 3%;
+}
+
+footer .languages-services-links .links-col h5 {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+footer .languages-services-links .links-col li {
+  list-style: none;
+}
+
+footer .languages-services-links .links-col li:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+footer .languages-services-links .links-col .contact-support.btn {
+  background-color: white;
+  color: #273E4F;
+  padding: 15px 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+footer .languages-services-links .links-col .social-links li {
+  display: inline-block;
+}
+
+footer .languages-services-links .links-col .social-links li:not(:last-child) {
+  margin-right: 25px;
+}
+
+footer .fab {
+  color: white;
+}
+
+footer .languages-services-links .languages-links {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+footer .languages-services-links .languages-links li {
+  display: inline-block;
+}
+
+footer .languages-services-links .languages-links li:not(:last-child) {
+  margin-right: 25px;
 }
