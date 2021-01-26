@@ -156,7 +156,7 @@ header .hero .hero-horizontal-layer {
 /* /HEADER SETTINGS */
 
 /* MAIN SETTINGS */
-main .products-section-bg {
+main .products-section.clearfix {
 background-color: #F5FAFD;
 padding-top: 60px;
 }
@@ -198,7 +198,7 @@ main .products-section .col:nth-child(4) {
 
 main .products-section .col img {
   margin-bottom: 20px;
-  width: 150px;
+  height: 120px;
 }
 
 main .products-section .col .btn {
@@ -213,7 +213,7 @@ main .products-section .col h3 {
 
 main .products-section .col .pop-sub-heading {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 600;
 }
 
@@ -242,37 +242,84 @@ main .products-section .col:not(.horizontal) .btn {
 
 
 main .products-section .horizontal.col {
-padding: 80px 100px 60px 100px;
+  padding: 80px 0 60px 0;
 }
 
 main .products-section .horizontal.col .learn-more {
   float: left;
+  width: 32%;
+  text-align: center;
+  padding: 0 20px;
 }
 
 main .products-section .horizontal.col img {
-  display: block;
-  transform: translateX(20px);
   margin-bottom: 30px;
 }
 
 main .products-section .horizontal.col .col-text {
-  float: right;
-  width: 70%;
+  float: left;
+  width: 68%;
+  padding-right: 110px;
 }
 
 main .products-section .horizontal.col li {
   display: inline-block;
   margin-right: 20px;
-  margin-top: 30px;
 }
 
-main .products-section .horizontal.col .pop-sub-heading, main .products-section .horizontal.col hr  {
+main .products-section .horizontal.col .pop-sub-heading  {
   display: inline-block;
   margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 main .products-section .horizontal.col hr {
   width: 60%;
   margin-left: 8%;
-  transform: translateY(-6px);
+  vertical-align: super;
+  display: inline-block;
+}
+
+main .table-section {
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  color: white;
+  padding: 60px 0 100px 0;
+  text-align: center;
+}
+
+main .table-section h4 {
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+main .table-section p {
+  margin-bottom: 60px
+}
+main .table-section .row:nth-child(2){
+  border-bottom: 1px solid white;
+}
+
+main .table-section .row .box {
+  float: left;
+  width: 25%;
+  padding: 30px 0;
+}
+
+main .table-section .row .box:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+main .table-section .row .box > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+main .table-section .row .box .table-counter {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+main .table-section .row .box .table-counter span {
+  font-weight: 500;
+  margin-left: 4px;
 }
