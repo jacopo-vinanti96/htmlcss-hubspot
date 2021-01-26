@@ -115,10 +115,11 @@ header .hero {
 
 header .hero img {
   position: relative;
-  top: 0;
   bottom: 0;
+  right: 0;
+  transform: translate(10%, 0%);
   z-index: 1;
-  width: 100%;
+  width: 90%;
 }
 
 header .hero .hero-text {
@@ -169,7 +170,7 @@ main .products-section .slogan-title {
 }
 
 main .products-section .slogan-title img {
-  width: 35%;
+  width: 30%;
 }
 
 main .products-section .slogan-title h2 {
@@ -283,7 +284,7 @@ main .products-section .horizontal.col hr {
 main .table-section {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   color: white;
-  padding: 60px 0 100px 0;
+  padding: 60px 0 120px 0;
   text-align: center;
 }
 
@@ -303,7 +304,7 @@ main .table-section .row:nth-child(2){
 main .table-section .row .box {
   float: left;
   width: 25%;
-  padding: 30px 0;
+  padding: 22px 0;
 }
 
 main .table-section .row .box:not(:last-child) {
@@ -335,7 +336,7 @@ main .bottom-section .customer-counter {
 }
 
 main .bottom-section .customer-counter h4 {
-  font-size: 60px;
+  font-size: 53px;
   font-weight: 600;
   margin-bottom: 40px;
 }
@@ -399,7 +400,7 @@ main .bottom-section .grow-with-hubspot img {
 
 footer {
   background-color: #273E4F;
-  padding: 40px 0px;
+  padding: 50px 0px 70px;
   color: white;
 }
 
@@ -408,7 +409,7 @@ footer a:not(.btn) {
 }
 
 footer .languages-services-links {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #CCD7E3;
   margin-bottom: 40px;
 }
 
@@ -422,7 +423,7 @@ footer .languages-services-links .links-col:not(:last-child) {
 }
 
 footer .languages-services-links .links-col h5 {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   font-size: 16px;
   font-weight: 700;
 }
@@ -432,7 +433,7 @@ footer .languages-services-links .links-col li {
 }
 
 footer .languages-services-links .links-col li:not(:last-child) {
-  padding-bottom: 16px;
+  padding-bottom: 20px;
 }
 
 footer .languages-services-links .links-col .contact-support.btn {
@@ -472,6 +473,11 @@ footer .languages-services-links .languages-links li:not(:last-child) {
 
 footer .copyright-bottom {
   float: left;
+}
+
+footer .copyright-bottom img {
+  margin-bottom: 5px;
+  width: 110px;
 }
 
 footer .legal-bottom {
