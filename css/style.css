@@ -228,7 +228,7 @@ main .products-section .col h3 {
 main .products-section .col .pop-sub-heading {
   text-transform: uppercase;
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 main .products-section .col li {
@@ -331,7 +331,7 @@ main .table-section .row .box img {
 
 main .table-section .row .box .table-counter {
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 
@@ -356,12 +356,12 @@ main .bottom-section .customer-counter {
 
 main .bottom-section .customer-counter h4 {
   font-size: 53px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 40px;
 }
 
 main .bottom-section .customer-counter strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 main .bottom-section .sponsors-logos {
